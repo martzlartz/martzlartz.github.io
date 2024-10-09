@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.Empresa{
+    font-family: "Tiro Tamil";
+    font-size: 60px;
+    background: -webkit-linear-gradient(#386e9f, #79addd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Logo{
+    width: 90px;
+    height: auto;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+.Zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(RECURSOS/ImagenFondo.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+}
+
+header.abajo{
+    position: fixed;
+    background-color: #e8b876;
+    padding-left: 40px;
+    width: 100%;  
+}
+
+.Texto {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    background-color: #d3d3d3;
+    color: #5a6b55;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .Segundo-Mensaje{
+    background-color: #613C10;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: "DM Sans";
+    text-align: center;
+  }
+
+  .Pendientes{
+    padding: 10px;
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+  }
+
+  .Titulos-Pagina{
+    
+    width: 51%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+
+  .Cajon{
+    width: 52%;
+    border-radius: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Caja{
+    background-color: #fff;
+    width: 49%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+}
+
+.ImagenEn{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.TituloEn{
+    width: 100%;
+    font-family: Roboto;
+    font-size: 40px;
+    color: #000000;
+    
+}
+
+.IntroduccionEn{
+    width: 67%;
+    font-family: Roboto;
+    font-size: 19px;
+    color: #000000;
+}
+
+.DondeEncontrarnos{
+    padding: 1px;   
+    display: flex;
+    width: 50%;
+    font-family: Roboto;
+}
+
+.TextoDescriptivo{
+    padding: 10px;  
+    width: 100%; 
+    text-align: left;
+}
+
+.Mapa{
+    width: 100%;    
+}
+
+.Estado{
+    font-size: 60px;
+}
+
+.Direccion{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.HorarioIndicacion{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Horarios{
+    font-size: 25px;
+}
+
+.CorreoyNumeros{
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    text-align: left;
+}
+
+.Correos{
+    background-color: #e9e9e9;
+    padding: 25px;
+    width: 47%;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.Numeros{
+    background-color: #e9e9e9;
+    padding: 25px;
+    width: 47%;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.Correos, .Numeros b{
+    font-size: 30px;
+} 
+
+.Correos a{
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to bottom, #73fd8c, #25cf43);
+    border-radius: 5px;
+    
+} 
+
+.Numeros a{
+    font-size: 30px;
+    color: #000000;
+} 
+
+footer{
+    background-color: #f4f7ff;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: "Open Sans";
+}
+
+
+.Divisiones{
+    display: flex;
+    width: 100%;
+}
+
+.LogoEspacio{
+    width: 25%;
+    padding-top: 30px;
+}
+
+.Redes{
+    width: 38.33%;
+}
+
+.MensajeFinal{
+    width: 100%;
+    font-size: 30px;
+}
+
+.MensajeFinal b{
+    font-family: "DM Sans";
+    font-size: 30px;
+}
+
+.Redes b{
+    font-family: "DM Sans";
+    font-size: 30px;
+}
+
+.Derechos{
+    text-align: center;
+    font-size: 25px;
+}
+.iconoRedFB{
+    width: 80px;
+    height: auto; 
+}
+.iconoRedLl{
+    width: 80px;
+    height: auto; 
+}
+.iconoRedCr{
+    width: 80px;
+    height: auto; 
+}
+.LogoFooter{
+    width: 110px;
+    height: auto;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container .slider {
+    display: flex;
+    padding: 2px;
+    width: 900px;
+    height: 150px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+.container .slider img {
+    margin: 3px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    padding: 10px; 
+}
+
+.container .control {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.container .prev {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .next {
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+  
+.FerreLineas{
+    display: flex;
+    width: 50%;
+}
+.Felecva{
+    width: auto;
+    height: 60px;
+}
+.linea, .Ferrevera{
+    width: 33.33%;
+}
+.LineaRyF{
+    width: 80%;
+    height: auto;
+}
+.IconoEnDiv{
+    padding-left: 10px;
+    width: 40px;
+    height: auto;
+}
+.IconoTexto{
+    display: flex;
+}
+
+@keyframes blink {
+    0% {background-color: transparent;}
+    50% {background-color: #7ed957;}
+    100% {background-color: transparent;}
+  }
+  
+  .blink {
+    animation: blink 1s linear 5;
+  }
+
+  @keyframes blink {
+    0% {background-color: transparent;}
+    50% {background-color: #7ed957;}
+    100% {background-color: transparent;}
+  }
+  
+  .blink {
+    animation: blink 1s linear 5;
+  }
+button{
+    background-color: transparent;
+    border: none;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+    text-decoration-color: #1daa61;
+}
+
+
+@media screen and (max-width: 430px){
+    header{
+        width: 100%;  
+    }
+    header.abajo{
+        position: fixed;
+        background-color: #e8b876;
+        padding-left: 40px;
+        width: 100%;  
+    }
+    .Logo{
+        width: 45px;
+        height: 45px;
+    }
+    .Empresa{
+        font-size: 25px;
+    }
+    .Texto{
+        font-size: 20px;
+    }
+    .slider img{
+        width: 100px;
+        height: 100px;
+    }
+    .container {
+        position: relative;
+        width: 90%;
+    }
+    .container .slider {
+        display: flex;
+        padding: 2px;
+        width: 330px;
+        height: 140px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+    .MensajeFinal{
+        font-size: 20px;
+    }
+    .FerreLineas{
+        display: none;
+    }
+    .Titulos-Pagina{
+        width: 80%;
+        font-size: 40px;
+    }
+    .Cajon{
+        display: block;
+        width: 90%;
+    }
+    .Caja{
+        width: 100%;
+    }
+    .DondeEncontrarnos{
+        width: 90%;
+        display: block;
+    }
+    .Estado{
+        font-size: 55px;
+        width: 90%;
+    }
+    .Horarios{
+        font-size: 22px;
+    }
+    iframe{
+        width: 100%;
+        height: 450px;
+    }
+    .CorreoyNumeros{
+        display: block;
+        width: 90%;
+    }
+    .Correos, .Numeros{
+        width: 80%;
+    }
+    .Numeros a{
+        font-size: 24px;
+    }
+    .Divisiones{
+        display: block;
+        width: 90%;
+        padding-left: 20px;
+    }
+    .Redes{
+        width: 100%;
+    }
+    .Derechos{
+        font-size: 15px;
+    }
+    .SiNo{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1370px){
+    .container{
+        width: 70%;
+    }
+    .Cajon{
+        width: 70%;
+    }
+    .DondeEncontrarnos{
+        width: 70%;
+    }
+    .CorreoyNumeros{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 1025px){
+
+    .container .slider {
+        width: 95%;
+    }
+    .Cajon{
+        width: 80%;
+    }
+    .DondeEncontrarnos{
+        width: 80%;
+    }
+    .CorreoyNumeros{
+        width: 80%;
+    }
+    iframe{
+        height: 740px;
+    }
+
+}
